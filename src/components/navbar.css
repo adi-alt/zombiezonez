@@ -1,0 +1,144 @@
+img{
+    /* height: 40px; */
+    object-fit: contain;
+    transition: all 0.5s;
+    
+}
+.img2{
+    position: fixed;
+    right: 20px;
+}
+.con1 {
+    display: flex; 
+    width: 20%;
+    justify-content:flex-start;
+    align-items:center;
+    position:fixed;
+    /* left: 0px; */
+    top: -3px;
+    z-index: 1000;
+}
+.con1 h1{
+    padding-left: 10px;
+    margin: 0;
+}
+.navbar-con{
+    position: fixed;
+    /* z-index: 10000; */
+    z-index: 10000000;
+    /* background-color: black; */
+    margin: 0;
+    padding: 10px;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+}
+.nav-black{
+    background-color: black;
+    /* transition: all 0.1s; */
+     overflow:hidden ;
+}
+/* input{
+    width: 400px;
+    position: fixed;
+    right: 120px;
+    top: 30px;
+    height: 30px;
+    
+} */
+/* 
+.base1{
+    position:fixed;
+    z-index: 10000;
+    width: 100%;
+    top: 70px;
+    height: 50px;
+    /* left: 70px; */
+    /* background-image: linear-gradient(black,transparent); */
+    /* transition-timing-function: ease-in; */
+    /* transition:ease-in-out all 0.5s; */
+/* }  */
+.img1{
+    height: 80px;
+    margin-top: -10px;
+}
+
+.searchbutton{
+    position: fixed;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    right: 0px;
+    width: 400px;
+    height: 70px;
+    justify-content: center;
+    z-index: 10;
+}
+
+.searchbutton > form{
+    width: 100%;
+    height: 70px;
+    right: 30%;
+    text-align: end;
+    position: relative;
+    right: 0%;
+    display: flex;
+    /* margin-right: 15px; */
+    justify-content: flex-end;
+}
+.searchbutton>form>input{
+    width: 70%;
+    height: 35px;
+    text-align: end;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    border-color: white;
+    border-width: 1px;
+    outline-width: 0;
+    padding-right: 10px;
+}
+.blender{
+    background-image: linear-gradient(black ,transparent );
+    height: 25vh;
+    width: 100vw;
+    position: fixed;
+    top: 8.5vh;
+    color: white;
+    left: 0;
+    z-index: 1;
+}
+input[type="text"]{
+    transition:all 1s ease-in-out;
+}
+input[type="text"]:focus{
+    background-color: rgba(255, 255, 255, 0.2);
+    width:87%;
+}
+@media (max-width : 500px) {
+    img{
+        height: 45px;
+        transition: all 0.5s;
+    }
+    .con1 {
+        width: 40%;
+        
+    }
+    .img1{
+        height: 60px;
+        margin-top: -6px;
+    }
+    .searchbutton{
+        width: 250px;
+    }
+    .searchbutton>form>input{
+        width:50%;
+    }
+    input[type="text"]:focus{
+        background-color: rgba(255, 255, 255, 0.2);
+        width:70%;
+    }
+}
