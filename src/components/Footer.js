@@ -2,6 +2,8 @@ import React from "react";
 // import {logo} from "./logo.png"
 // import logo from "./logo.png";
 // import InstagramIcon from '@mui/icons-material/Instagram';
+import Lottie from "lottie-react";
+import Icon1 from "../images/logo.json"
 import "./footer.css";
 function Footer() {
   return (
@@ -11,11 +13,12 @@ function Footer() {
       </div>
       <div className="footer">
         <div className="heading">
-          <img
-            className="img1"
-            src="https://media3.giphy.com/media/KFnSuizdGVCtkVFOXM/source.gif"
-            alt=""
-          />
+        <a href="/log/home">
+          <Lottie animationData={Icon1} className="img1"/>
+          </a>
+          <a href="/log/home" style={{color:'#73859a80'}}>
+          <h2>ZOmBiezz ZOneE</h2>
+          </a>
         </div>
         <div className="conw">
           {/* <div className="contacts1">
@@ -78,7 +81,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="ml">Copyright © our-own-mini-player.netlify.app</div>
+        <div className="ml">Copyright © ZOmBiezz ZOneE .</div>
       </div>
     </React.Fragment>
   );

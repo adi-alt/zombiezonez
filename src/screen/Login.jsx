@@ -41,9 +41,9 @@ function Login(){
                 <div className="logininput">
                     <form>
                         <button onClick={()=> setnewBie(true)}
-                        className="NewB">NewZom</button>
+                        className="NewB">NewZom in house</button>
                         <button onClick={()=> setsignIn(true)}
-                        className="logininbutton">comeon</button>
+                        className="logininbutton">LetS ATTacK</button>
                     </form>
                 </div>
                 </div>

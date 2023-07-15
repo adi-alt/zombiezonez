@@ -69,7 +69,7 @@ function Navbar() {
         </div>
         <div className="searchbutton">
         <form onSubmit={(e)=>{handleSubmit(e)}}>  
-          <input type="text" placeholder=".. wut you looking for ?"value={search} onChange={(e)=>{setSearch(e.target.value)}}/>
+          <input type="text" placeholder=".. wut you looking for Zomb?"value={search} onChange={(e)=>{setSearch(e.target.value)}}/>
           <Lottie animationData={Icon} style={{width:'30%',height:'200%',marginTop:'-40px'}}/>
         </form>
         </div>
@@ -78,7 +78,7 @@ function Navbar() {
       </div>
       <div className={show1 && "base1"}></div>
       <a href='/'>
-                <button onClick={()=>{window.localStorage.setItem("logout","true")}} style={{backgroundColor:'rgba(113 ,132, 151 ,0.5)',border:'none',borderRadius:'500px',height:'55px',fontWeight:'bolder',position:'fixed',zIndex:'10000',top:'50%',left:'10px',boxShadow:'0px 0px 20px 0px white',color:'white'}}>FUn SEsh OVer?</button>
+                <button onClick={()=>{window.localStorage.setItem("logout","true")}} style={{backgroundColor:'rgba(113 ,132, 151 ,0.5)',border:'none',borderRadius:'500px',height:'55px',fontWeight:'bolder',position:'fixed',zIndex:'10000',top:'50%',left:'10px',boxShadow:'0px 0px 20px 0px white',color:'white'}}>ZOmB SEsh OVer?</button>
               </a>
     </div>
   );
